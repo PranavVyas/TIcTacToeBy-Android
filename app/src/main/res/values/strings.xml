@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="button_name">Click Me</string>
+    <string name="restart_button">Restart</string>
+    <string name="about_button">About Me</string>
+    <string name="title_in_activity">Tic Tac Toe</string>
+    <string name="button_x">  X  </string>
+    <string name="button_o">  O  </string>
+    <string name="how_to_play">Tic Tac Toe is the game played by two players and this is played by putting O or X from available spaces.
+        (1) It is the game with 3 * 3 empty grid.
+        (2) First Player chooses his places and put "O" in his desired place next comes the next player and chooses the desired spot and try to create the pattern of three common Symbols in horizontal or vertical or in diagonal manner
+        (3) The one who creates three constant marks first wins Game.</string>
+    <string name="u_Yash">YPatel</string>
+    <string name="u_Tanmay">Batak</string>
+    <string name="u_Admin">Admin</string>
+    <string name="u_Vijay">Alya_Dafod</string>
+</resources>

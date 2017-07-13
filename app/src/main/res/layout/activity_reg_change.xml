@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vyas.tictactoebypro.regChange">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context="com.example.vyas.tictactoebypro.profile">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Profile"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="40dp"
+            android:text="Name"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView296"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="E-mail"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/textView30"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            tools:layout_editor_absoluteX="48dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Password"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/textView296"
+            tools:layout_editor_absoluteX="48dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="52dp"
+            android:ems="10"
+            android:hint="New Name"
+            android:inputType="textPersonName"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView28"
+            app:layout_constraintLeft_toRightOf="@+id/textView28" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="New E- mail"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView296"
+            app:layout_constraintStart_toStartOf="@+id/editText"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView30"
+            app:layout_constraintStart_toStartOf="@+id/editText"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <Button
+            android:id="@+id/regagain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="389dp"
+            android:text="Save Details"
+            android:onClick="save_details"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

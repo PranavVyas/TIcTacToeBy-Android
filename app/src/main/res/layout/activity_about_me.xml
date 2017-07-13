@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vyas.tictactoebypro.about_me">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="1.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="pranavvyas4399@gmail.com"
+                android:textSize="18sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView18"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/textView18"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.477" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="41dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="39dp"
+                android:text="Name of Developer : "
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.371" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="139dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="hackerearthClick"
+                android:text="HackerEarth"
+                android:textSize="24sp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/imageButton6"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="About Developer"
+                android:textSize="30sp"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="8dp"
+                android:onClick="blogspost"
+                android:text="provyas.blogspot.in"
+                android:textSize="18sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView20"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/textView20"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.559" />
+
+            <TextView
+                android:id="@+id/dname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Pranav Vyas"
+                android:textSize="18sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView9"
+                app:layout_constraintLeft_toRightOf="@+id/textView9" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="65dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:onClick="facebookClick"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:srcCompat="@mipmap/fb_icon"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="facebookClick"
+                android:text="Facebook"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toRightOf="@+id/imageButton4"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="191dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="52dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView9"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/profile"
+                app:layout_constraintVertical_bias="0.467" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="41dp"
+                android:layout_marginStart="41dp"
+                android:text="Email : "
+                android:textSize="18sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="65dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:onClick="hackerearthClick"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:srcCompat="@mipmap/hackerearth_icon"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="65dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:onClick="githubClick"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:srcCompat="@mipmap/github_icon"
+                app:layout_constraintHorizontal_bias="0.103"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:onClick="instaClick"
+                android:text="Instagram"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toRightOf="@+id/imageButton7"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="65dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:onClick="instaClick"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imageButton6"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/insta_icon"
+                tools:layout_editor_absoluteX="42dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="41dp"
+                android:layout_marginStart="41dp"
+                android:text="Blog : "
+                android:textSize="18sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="41dp"
+                android:layout_marginStart="41dp"
+                android:text="Follow me on :"
+                android:textSize="18sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="githubClick"
+                android:text="GitHub"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toRightOf="@+id/imageButton5"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
